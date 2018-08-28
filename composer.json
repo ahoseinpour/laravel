@@ -11,5 +11,15 @@
     "psr-4": {
       "Ghasedak\\": "src"
     }
-  }
+  },
+  "extra": {
+    "laravel": {
+        "providers": [
+            "Ghasedak\GhasedakServiceProvider"
+        ],
+        "aliases": {
+              "Ghasedak" =>   "Ghasedak\GhasedakFacade::class"
+        }
+    }
+},
 }
