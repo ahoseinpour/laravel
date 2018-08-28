@@ -18,7 +18,7 @@
             "Ghasedak\\GhasedakServiceProvider"
         ],
         "aliases": {
-              "Ghasedak" =>   "Ghasedak\\GhasedakFacade::class"
+              "Ghasedak": "Ghasedak\\GhasedakFacade::class"
         }
     }
 },
