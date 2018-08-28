@@ -1,0 +1,15 @@
+{
+  "name": "ghasedak/laravel",
+  "description": "Iranin sms webapi",
+  "authors": [
+    {
+      "name": "ghasedak",
+      "email": "ghasedak@gmail.com"
+    }
+  ],   
+  "autoload": {
+    "psr-4": {
+      "Ghasedak\\": "src"
+    }
+  }
+}
