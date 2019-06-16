@@ -23,7 +23,7 @@ Add the Ghasedak\Laravel\ServiceProvider provider to the providers array in conf
 ``` 
 'providers' => [
   ...
-  Ghasedak\GhasedakServiceProvider,
+  Ghasedak\GhasedakServiceProvider::class,
 ],
 ```
 
@@ -47,8 +47,8 @@ $api = new \Ghasedak\GhasedakApi( env(GHASEDAKAPI_KEY));
 Send some sms:
 
 ```javascript
-api.SendSimple( 
-	  "09xxxxxxxxx",
+$api->SendSimple( 
+	"", "09xxxxxxxxx",
       "Hello World!"
  );
 ```
