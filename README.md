@@ -48,7 +48,7 @@ Send some sms:
 
 ```javascript
 $api->SendSimple( 
-	"", "09xxxxxxxxx",
+      "09xxxxxxxxx",
       "Hello World!"
  );
 ```
